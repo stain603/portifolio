@@ -1,3 +1,34 @@
+import finn from "../assets/images/fin-01.jpeg";
+import finn2 from "../assets/images/fin-02.jpeg";
+import finn3 from "../assets/images/fin-03.jpeg";
+import finn5 from "../assets/images/fin-05.png";
+import mockupFinn from "../assets/images/mockup-finn.jpeg";
+import kompo from "../assets/images/kompo-01.png";
+import kompo2 from "../assets/images/kompo-02.png";
+import kompo3 from "../assets/images/kompo-03.png";
+import mockupKompo from "../assets/images/mockup-kompo.png";
+import cabedelo from "../assets/images/cab-01.jfif";
+import cabedelo2 from "../assets/images/cab-cll.jfif";
+import cabedelo3 from "../assets/images/cab-02.jfif";
+import cabedelo4 from "../assets/images/cab-03.jfif";
+import cabedelo5 from "../assets/images/cab-04.jfif";
+import cabCidadao from "../assets/images/cab-cidadao.png";
+import doglist from "../assets/images/dog-01.png";
+import doglist2 from "../assets/images/dog-02.png";
+import doglist3 from "../assets/images/dog-03.png";
+import dogListThumb from "../assets/images/dog-list.png";
+import inventmanager from "../assets/images/invent-01.jfif";
+import inventmanager2 from "../assets/images/invent-02.jfif";
+import inventmanager3 from "../assets/images/invent-03.jfif";
+import inventManagerThumb from "../assets/images/invent-manager.png";
+import portifolio from "../assets/images/port-pc.png";
+import portifolio2 from "../assets/images/port-cll.png";
+import portifolio3 from "../assets/images/port-02.png";
+import portifolio4 from "../assets/images/port-03.png";
+import portifolio5 from "../assets/images/port-04.png";
+import portifolioThumb from "../assets/images/portifolio.png";
+import atlas from "../assets/images/em-breve.png";
+
 export type ProjectStatus = "Em produção" | "Concluído" | "Em desenvolvimento";
 
 export type Project = {
@@ -24,9 +55,9 @@ export const projects: Project[] = [
       "Sistema de gestão comercial para controle de clientes e transações",
     fullDescription:
       "O FINN é uma aplicação web progressiva (PWA) desenvolvida para auxiliar pequenos negócios e profissionais autônomos na gestão de clientes, empréstimos e transações financeiras. O sistema centraliza todas as informações em uma única plataforma, automatizando cálculos, acompanhamento de pagamentos e organização da carteira de clientes.\n\nEntre as funcionalidades estão o gerenciamento de clientes, controle de contratos e parcelas, resumos financeiros diários, semanais, mensais e anuais, dashboards da carteira, alertas de cobranças, acompanhamento de inadimplência e geração automática de indicadores.\n\nO projeto foi desenvolvido por mim desde a concepção da interface até a implementação da aplicação, com foco em desempenho, usabilidade e experiência do usuário.",
-    thumbnail: "/src/assets/images/mockup-finn.jpeg",
+    thumbnail: mockupFinn,
     tags: ["React Native", "TypeScript", "css","Tailwind CSS", "PWA", "API REST", "Supabase","python","libs-react native"],
-    link: "#https://fin-n.vercel.app/",
+    link: "https://fin-n.vercel.app/",
     githubLink: "https://github.com/stain603/FinN",
     features: [
       "Gerenciamento de clientes",
@@ -38,10 +69,10 @@ export const projects: Project[] = [
       "Geração automática de indicadores",
     ],
     images: [
-      "/src/assets/images/fin-05.png",
-      "/src/assets/images/fin-02.jpeg",
-      "/src/assets/images/fin-03.jpeg",
-      "/src/assets/images/fin-01.jpeg",
+      finn5,
+      finn2,
+      finn3,
+      finn,
     ],
     objetivo:
       "Auxiliar pequenos negócios e autônomos na gestão de clientes e finanças",
@@ -54,9 +85,9 @@ export const projects: Project[] = [
     description: "Biblioteca de componentes reutilizáveis para aplicações React",
     fullDescription:
       "O KOMPO nasceu da necessidade de acelerar o desenvolvimento de interfaces modernas através de uma biblioteca própria de componentes reutilizáveis.\n\nO projeto reúne componentes desenvolvidos em React que podem ser copiados, personalizados e reutilizados em diferentes aplicações, reduzindo tempo de desenvolvimento e mantendo consistência visual entre projetos.\n\nAlém dos componentes, a plataforma possui documentação, exemplos de uso e organização pensada para facilitar a integração em novos projetos.\n\nFoi desenvolvido integralmente por mim como uma ferramenta de produtividade para meus próprios projetos e futuras aplicações.",
-    thumbnail: "/src/assets/images/mockup-kompo.png",
+    thumbnail: mockupKompo,
     tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Component Design","Zustand"],
-    link: "#https://k0mpo-t22pc9s4r-stain603s-projects.vercel.app",
+    link: "https://k0mpo-t22pc9s4r-stain603s-projects.vercel.app",
     githubLink: "https://github.com/stain603/K0mpo",
     features: [
       "Componentes React reutilizáveis",
@@ -64,7 +95,7 @@ export const projects: Project[] = [
       "Exemplos práticos",
       "Organização para fácil integração",
     ],
-    images: ["/src/assets/images/kompo-01.png","/src/assets/images/kompo-02.png","/src/assets/images/kompo-03.png"],
+    images: [kompo, kompo2, kompo3],
     objetivo:
       "Acelerar o desenvolvimento de interfaces com componentes reutilizáveis",
     atuacao: "Desenvolvimento integral da biblioteca, documentação e exemplos",
@@ -76,7 +107,7 @@ export const projects: Project[] = [
     description: "Sistema municipal de serviços digitais para cidadãos",
     fullDescription:
       "Participei do desenvolvimento da nova interface do Cabedelo Cidadão, sendo responsável pela concepção e implementação do Front-end da plataforma.\n\nMeu trabalho envolveu a criação da identidade visual da aplicação, definição da experiência do usuário, desenvolvimento da interface responsiva e implementação de novas funcionalidades em conjunto com a equipe de desenvolvimento.\n\nO objetivo do sistema era centralizar diversos serviços públicos municipais em uma única plataforma moderna, acessível e intuitiva para a população.\n\nEssa experiência fortaleceu meus conhecimentos em desenvolvimento Front-end, colaboração em equipe, organização de projetos e construção de interfaces voltadas para uso em larga escala.",
-    thumbnail: "/src/assets/images/cab-cidadao.png",
+    thumbnail: cabCidadao,
     tags: ["React", "Tailwind CSS", "UI Design", "UX Design","java","spring boot","api rest","postgresql"],
     link: "#",
     githubLink: "https://github.com/stain603/cabedelo-cidadao",
@@ -87,7 +118,7 @@ export const projects: Project[] = [
       "Implementação de novas funcionalidades",
       "Trabalho colaborativo com equipe de desenvolvimento",
     ],
-    images: ["/src/assets/images/cab-01.jfif","/src/assets/images/cab-cll.jfif","/src/assets/images/cab-02.jfif","/src/assets/images/cab-03.jfif","/src/assets/images/cab-04.jfif"],
+    images: [cabedelo, cabedelo2, cabedelo3, cabedelo4, cabedelo5],
     objetivo:
       "Centralizar serviços públicos municipais em uma plataforma moderna",
     atuacao: "Front-end, UI/UX Design, integração com APi, implementação de novas funcionalidades em equipe",
@@ -99,9 +130,9 @@ export const projects: Project[] = [
     description: "Landing page educativa sobre grupos caninos",
     fullDescription:
       "O Dog._.List é uma landing page desenvolvida para apresentar informações introdutórias sobre os cinco principais grupos de cães reconhecidos internacionalmente.\n\nO objetivo do projeto é facilitar o primeiro contato dos usuários com o universo canino através de uma interface simples, organizada e visualmente agradável, servindo como porta de entrada para conteúdos mais completos sobre cada grupo.\n\nO foco principal esteve na construção de uma experiência de navegação intuitiva e em um design limpo voltado para leitura.",
-    thumbnail: "/src/assets/images/dog-list.png",
+    thumbnail: dogListThumb,
     tags: ["html", "css","javascript", "UI/UX Design", "Responsividade"],
-    link: "#https://stain603.github.io/Dog._.list/lading%20page_dog",
+    link: "https://stain603.github.io/Dog._.list/lading%20page_dog",
     githubLink: "https://github.com/stain603/Dog._.list",
     features: [
       "Apresentação dos cinco grupos caninos",
@@ -109,7 +140,7 @@ export const projects: Project[] = [
       "Design limpo voltado para leitura",
       "Interface responsiva",
     ],
-    images: ["/src/assets/images/dog-01.png","/src/assets/images/dog-02.png","/src/assets/images/dog-03.png"],
+    images: [doglist, doglist2, doglist3],
     objetivo:
       "Facilitar o primeiro contato com o universo canino de forma visual",
     atuacao: "Design e desenvolvimento completo da landing page para testar conhecimentos",
@@ -121,7 +152,7 @@ export const projects: Project[] = [
     description: "Sistema completo para gestão de estoque e produção",
     fullDescription:
       "O Inventory Manager foi desenvolvido como parte de um processo seletivo técnico, com o objetivo de demonstrar conhecimentos em desenvolvimento Full Stack.\n\nO sistema permite gerenciar produtos, matérias-primas e processos de produção, integrando Front-end, Back-end, banco de dados, APIs REST e testes automatizados em uma única aplicação.\n\nDurante o desenvolvimento foram aplicados conceitos de arquitetura de software, organização em camadas, integração entre serviços, persistência de dados e boas práticas de desenvolvimento.\n\nFoi um projeto importante para consolidar conhecimentos além da interface, abrangendo todo o ciclo de desenvolvimento de uma aplicação.",
-    thumbnail: "/src/assets/images/invent-manager.png",
+    thumbnail: inventManagerThumb,
     tags: [
       "React",
       "Node.js",
@@ -142,7 +173,7 @@ export const projects: Project[] = [
       "Testes automatizados",
       "Arquitetura em camadas",
     ],
-    images: ["/src/assets/images/invent-01.jfif","/src/assets/images/invent-02.jfif","/src/assets/images/invent-03.jfif"],
+    images: [inventmanager, inventmanager2, inventmanager3],
     objetivo:
       "Demonstrar conhecimentos Full Stack em processo seletivo técnico",
     atuacao: "Full Stack, front-end, back-end, banco de dados, APIs REST e testes",
@@ -155,7 +186,7 @@ export const projects: Project[] = [
       "Portfólio pessoal desenvolvido para apresentar projetos e experiência profissional",
     fullDescription:
       "Este portfólio foi desenvolvido para reunir meus principais projetos, experiências e habilidades como desenvolvedor Full Stack e Designer UI/UX.\n\nAlém de funcionar como vitrine profissional, o próprio portfólio representa um projeto completo de desenvolvimento, reunindo identidade visual própria, animações, componentes reutilizáveis, boas práticas de arquitetura Front-end e foco em experiência do usuário.\n\nO projeto continua evoluindo constantemente conforme novos trabalhos e funcionalidades são desenvolvidos.",
-    thumbnail: "/src/assets/images/portifolio.png",
+    thumbnail: portifolioThumb,
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Magic UI"],
     link: "#",
     githubLink: "https://github.com/stain603/portifolio",
@@ -166,7 +197,7 @@ export const projects: Project[] = [
       "Arquitetura Front-end",
       "Foco em experiência do usuário",
     ],
-    images: ["/src/assets/images/port-pc.png","/src/assets/images/port-cll.png","/src/assets/images/port-02.png","/src/assets/images/port-03.png","/src/assets/images/port-04.png"],
+    images: [portifolio, portifolio2, portifolio3, portifolio4, portifolio5],
     objetivo:
       "Reunir projetos, experiências e habilidades como Full Stack e UI/UX",
     atuacao: "Desenvolvimento completo, visual, implementação deanimações e arquitetura",
@@ -178,7 +209,7 @@ export const projects: Project[] = [
     description: "Plataforma modular para construção de sistemas empresariais",
     fullDescription:
       "O Atlas é um sistema em desenvolvimento baseado em arquitetura modular, permitindo que cada empresa monte sua própria plataforma de acordo com suas necessidades.\n\nAo invés de desenvolver um sistema específico para cada cliente, o Atlas funciona como uma plataforma onde funcionalidades podem ser adicionadas ou removidas por módulos independentes, formando sistemas completamente personalizados.\n\nO projeto foi pensado para oferecer alta escalabilidade, reaproveitamento de código e facilidade de manutenção, sendo a evolução de experiências obtidas em projetos anteriores.\n\nAtualmente encontra-se em desenvolvimento.",
-    thumbnail: "/src/assets/images/em-breve.png",
+    thumbnail: atlas,
     tags: [
       "React",
       "TypeScript",
